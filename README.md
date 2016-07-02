@@ -1,7 +1,7 @@
 ## Osolo
 
-[![GitHub release](https://img.shields.io/github/release/qubyte/rubidium.svg?maxAge=2592000?style=flat-square)]()
-[![](https://img.shields.io/badge/documentation-yes-blue.svg?style=flat-square)]()
+[![](https://img.shields.io/badge/version-v0.0.1-ff69b4.svg?style=flat-square)]()
+[![](https://img.shields.io/badge/documentation-yes-blue.svg?style=flat-square)](https://github.com/russiantux/osolo_nodejs/blob/master/README.md)
 
 
 a tool to remotely start a minecraft servers. build with node.js and socket.io.
