@@ -9,29 +9,32 @@ a tool to remotely start a minecraft servers. build with node.js and socket.io.
 ```
 node.js
 socket.io
-
 ```
 
-## Motivation
-
-A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
+## How to use Osolo
+Using Osolo is very simple. Simply put Osolo to your minecraft server folder (where ever you put the server files), open command promt, cd into the server folder, and type `node osolo.js`. You then can go to `http://localhost:8080` and access the web page to use Osolo. If you want to use this over the internet, make sure you port-forward `8080`, and connect using `http://{your-IP-here}:8080`.
 
 ## Installation
+Installation is very simply, just drag and drop all the files in the zip into the folder where your minecraft server files are. Make sure you have a `run.bat` inside the folder, otherwise Osolo will not be able to run the server (will fix it in the future)
 
-Provide code examples and explanations of how to get the project.
-
-## API Reference
-
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
-
-## Tests
-
-Describe and show how to run the tests with code examples.
-
-## Contributors
-
-Let people know how they can dive into the project, include important links to things like issue trackers, irc, twitter accounts if applicable.
 
 ## License
 
-A short snippet describing the license (MIT, Apache, etc.)
+    
+    Copyright (C) <2016>  <russiantux>
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU Affero General Public License as published
+    by the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU Affero General Public License for more details.
+
+    You should have received a copy of the GNU Affero General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+
+
