@@ -5,9 +5,12 @@
 
 
 a tool to remotely start a minecraft servers. build with node.js and socket.io.
-## Code Example
+## Dependencies
+```
+node.js
+socket.io
 
-Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
+```
 
 ## Motivation
 
