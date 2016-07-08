@@ -1,6 +1,6 @@
 ## Osolo
 
-[![](https://img.shields.io/badge/version-v0.0.1-ff69b4.svg?style=flat-square)](https://github.com/russiantux/osolo_nodejs/releases/tag/v0.0.1)
+[![](https://img.shields.io/badge/version-v.0.0.2-ff69b4.svg?style=flat-square)](https://github.com/russiantux/osolo_nodejs/releases/tag/v.0.0.2)
 [![](https://img.shields.io/badge/documentation-yes-blue.svg?style=flat-square)](https://github.com/russiantux/osolo_nodejs/blob/master/README.md)
 
 
