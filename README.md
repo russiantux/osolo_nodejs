@@ -40,7 +40,7 @@ Installation is very simply (that is if you have socket.io, if you need socket-i
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 ## Special thanks to:
-My friend [Andrey](https://github.com/andreybutenko) for suggesting I use socket.io
-My friend Austin for helping me pick out a name for this program and for also helping me test this with his minecraft server.
+My friend [Andrey](https://github.com/andreybutenko) for suggesting I use socket.io and my friend Austin for helping me pick out a name for this program and for also helping me test this with his minecraft server.
+
 
 
