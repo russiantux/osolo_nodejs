@@ -6,12 +6,17 @@ var path = require("path");
 
 
 
-console.log('Osolo dev_server v.0.0.1 DEV_BRANCH')
+console.log('Osolo v.0.0.2')
+console.log('Copyright (C) 2016  Viktor Lazarev')
+console.log('This program comes with ABSOLUTELY NO WARRANTY!!')
+console.log('This is free software, and you are welcome to redistribute it under certain conditions')
+console.log('For detailed use of this program, please consult the LICENSE.MD file')
+
 
 app.listen(8080);
 
 function handler (request, response) {
-    console.log('request starting...');
+    
 	
 	var filePath = '.' + request.url;
 	if (filePath == './')
@@ -55,7 +60,7 @@ function handler (request, response) {
 };
 
 
-console.log('server is online')
+console.log('Osolo is online, running at port 8080')
 
 io.on('connection', function (socket) {
   socket.on('runserver', function (RunServer) {
@@ -71,6 +76,7 @@ io.on('connection', function (socket) {
 
     // Done.
     console.log('bat file exacuted, check if server running');
+	
 	});
 
  
