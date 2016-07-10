@@ -1,6 +1,6 @@
 ## Osolo
 
-[![](https://img.shields.io/badge/version-v.0.0.2-ff69b4.svg?style=flat-square)](https://github.com/russiantux/osolo_nodejs/releases/tag/v.0.0.2)
+[![](https://img.shields.io/badge/version-v.0.0.3-ff69b4.svg?style=flat-square)](https://github.com/russiantux/osolo_nodejs/releases/tag/v.0.0.2)
 [![](https://img.shields.io/badge/documentation-yes-blue.svg?style=flat-square)](https://github.com/russiantux/osolo_nodejs/blob/master/README.md)
 
 
@@ -15,10 +15,10 @@ socket.io
 ```
 
 ## How to use Osolo
-Using Osolo is very simple. Simply put Osolo to your minecraft server folder (where ever you put the server files), open command promt, cd into the server folder, and type `node osolo.js`. You then can go to `http://localhost:8080` and access the web page to use Osolo. If you want to use this over the internet, make sure you port-forward `8080`, and connect using `http://{your-IP-here}:8080`.
+Using Osolo is very simple. Simply put Osolo to your minecraft server folder (where ever you put the server files), and double-click on `osolo.bat`, or if you want to do it the hard way, open command promt, cd into the server folder, and type `node osolo.js`. You then can go to `http://localhost:8080` and access the web page to use Osolo. If you want to use this over the internet, make sure you port-forward `8080`, and connect using `http://{your-IP-here}:8080`.
 
 ## Installation
-Installation is very simply (that is if you have socket.io, if you need socket-io, run `npm install socket.io` , just drag and drop all the files in the zip into the folder where your minecraft server files are. Make sure you have a `run.bat` inside the folder, otherwise Osolo will not be able to run the server (will fix it in the future)
+Installation is very simply (that is if you have socket.io, if you need socket-io, run `npm install socket.io` , just drag and drop all the files in the zip into the folder where your minecraft server files are, and then just click on `osolo.js` and Osolo will run.
 
 
 ## License
