@@ -5,6 +5,10 @@ layout: home
 
 Osolo is a tool to remotely start minecraft servers.
 
-made in node.js and socket.io
 
-## [github page](https://github.com/russiantux/osolo_nodejs/)
+>made in node.js and socket.io
+
+
+# links
+[github page](https://github.com/russiantux/osolo_nodejs/){: .btn}
+[download Osolo](https://github.com/russiantux/osolo_nodejs/releases){: .btn}
