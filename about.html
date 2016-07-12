@@ -33,69 +33,37 @@
     <script src="/socket.io/socket.io.js"></script>
     
     
-    <script>
-    var socket = io();
-     
-    function RunServer() {
-        
-        socket.emit('runserver', {RunServer});
-        
-        $.notify({
-            	icon: 'fa fa-bell',
-            	message: "Server started, check to make sure."
-
-            },{
-                type: 'success',
-                timer: 4000
-            });
-        
-     };
-        
-    </script>
-   <script>
-       function reloadIframe() {
-    var iframe = document.getElementById('logs');
-    iframe.src = "logs/latest.log";
-    setTimeout("reloadIframe()", 2000);
-}
-window.onload = reloadIframe;
-    </script>
     
 </head>
-    
 <body>
 
 <div class="wrapper">
     <div class="sidebar" data-color="purple" data-image="assets/img/sidebar-5.jpg">
 
-    <!--
+    <!--   you can change the color of the sidebar using: data-color="blue | azure | green | orange | red | purple" -->
 
-        Tip 1: you can change the color of the sidebar using: data-color="blue | azure | green | orange | red | purple"
-        Tip 2: you can also add an image using data-image tag
-
-    -->
 
     	<div class="sidebar-wrapper">
             <div class="logo">
-                <a target="_blank" href="index.html" class="simple-text">
+                <a href="http://www.creative-tim.com" class="simple-text">
                     Osolo v.0.0.3
                 </a>
             </div>
 
             <ul class="nav">
-                <li class="active">
+                <li>
                     <a href="index.html">
-                        <i class="fa fa-tachometer fa-2x" aria-hidden="true"></i>
+                        <i class="fa fa-tachometer fa-2x"></i>
                         <p>Dashboard</p>
                     </a>
                 </li>
-                <li>
-                    <a href="about.html">
+                <li class="active">
+                    <a href="user.html">
                         <i class="fa fa-terminal"></i>
                         <p>About Osolo</p>
                     </a>
                 </li>
-               
+                
 				<li class="active-pro">
                     <a target="_blank" href="https://www.paypal.me/russiantux">
                         <i class="fa fa-money" aria-hidden="true"></i>
@@ -117,19 +85,9 @@ window.onload = reloadIframe;
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Dashboard</a>
+                    <a class="navbar-brand" href="#">About Osolo</a>
                 </div>
-                <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav navbar-left">
-                       
-                    </ul>
-
-                    <ul class="nav navbar-nav navbar-right">
-                        
                 
-                    
-                    </ul>
-                </div>
             </div>
         </nav>
 
@@ -137,38 +95,75 @@ window.onload = reloadIframe;
         <div class="content">
             <div class="container-fluid">
                 <div class="row">
+                    <div class="col-md-8">
+                        
+                            
                     <div class="col-md-4">
-                        <div class="card">
-                            <div class="header">
-                                <h4 class="title">Server Dashboard</h4>
-                                <p class="category">server controls</p>
+                        <div class="card card-user">
+                            <div class="image">
+                                <img src="https://ununsplash.imgix.net/photo-1431578500526-4d9613015464?fit=crop&fm=jpg&h=300&q=75&w=400" alt="..."/>
                             </div>
-                            <div class="btn-group" role="group" aria-label="...">
-                                <button type="button" onclick="RunServer()" >Start server</button>
+                            <div class="content">
+                                <div class="author">
+                                     <a href="#">
+                                    <img class="avatar border-gray" src="assets/img/osolo_bear.png" alt="..."/>
+
+                                      <h4 class="title">Osolo<br />
+                                         <small>made by russiantux</small>
+                                      </h4>
+                                    </a>
+                                </div>
+                                <p class="description text-center"> 
+                                </p>
+                            </div>
+                            <hr>
+                            <div class="text-center">
+                                <button href="#" class="btn btn-simple"><i class="fa fa-github"></i><a target="_blank" href="http://github.com/russiantux/osolo_nodejs"> github page</a></button>
+                                
+
                             </div>
                         </div>
                     </div>
-
+                         
                     <div class="col-md-8">
                         <div class="card">
                             <div class="header">
-                                <h4 class="title">Server Log</h4>
-                                <p class="category">displays the logs from latest.log</p>
+                                <h4 class="title">Osolo License</h4>
+                                <p class="category">for more details, please read the LICENSE.md</p>
                             </div>
                             <div class="content">
-                             <iframe id="logs" src="logs/latest.log"></iframe>
+                            Copyright (C) 2016 Viktor Lazarev <br>
+
+                            This program is free software: you can redistribute it and/or modify
+                            it under the terms of the GNU Affero General Public License as published
+                            by the Free Software Foundation, either version 3 of the License, or
+                            (at your option) any later version. <br>
+
+                            This program is distributed in the hope that it will be useful,
+                            but WITHOUT ANY WARRANTY; without even the implied warranty of
+                            MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+                            GNU Affero General Public License for more details.<br>
                             </div>
                         </div>
                     </div>
+                        <div class="col-md-8">
+                        <div class="card">
+                            <div class="header">
+                                <h4 class="title">Special thanks to:</h4>
+                                
+                            </div>
+                            <div class="content">
+                                <b>My friend <a target="_blank" href="https://github.com/andreybutenko">Andrey</a> for suggesting I use socket.io and helping me for this project.</b><br>
+                                <br>
+                                <b>My friend Austin for helping me choose a name for this project and for also helping me test out this program.</b><br>
+                            </div> 
+                        </div>
+                    </div>
+
                 </div>
-
-
-
-               
-                
             </div>
         </div>
-
+        </div>
 
         <footer class="footer">
             <div class="container-fluid">
@@ -217,29 +212,13 @@ window.onload = reloadIframe;
     <!--  Notifications Plugin    -->
     <script src="assets/js/bootstrap-notify.js"></script>
 
-
+    <!--  Google Maps Plugin    -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 
     <!-- Light Bootstrap Table Core javascript and methods for Demo purpose -->
 	<script src="assets/js/light-bootstrap-dashboard.js"></script>
 
 	<!-- Light Bootstrap Table DEMO methods, don't include it in your project! -->
 	<script src="assets/js/demo.js"></script>
-
-	<script type="text/javascript">
-    	$(document).ready(function(){
-
-        	demo.initChartist();
-
-        	$.notify({
-            	icon: 'fa fa-bell',
-            	message: "Osolo dashboard initalized."
-
-            },{
-                type: 'info',
-                timer: 4000
-            });
-
-    	});
-	</script>
 
 </html>
