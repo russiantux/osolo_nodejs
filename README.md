@@ -23,6 +23,8 @@ Installation is very simply (that is if you have socket.io, if you need socket-i
 
 ## License
 
+tl:dr, you can modify it to your hearts extant, just credit me at least if you plan on uploading it somewhere.
+
     
     Copyright (C) <2016>  <russiantux>
 
