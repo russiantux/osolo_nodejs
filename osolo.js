@@ -2,12 +2,13 @@ var app = require('http').createServer(handler);
 var io = require('socket.io')(app);
 var fs = require('fs');
 var path = require("path");
+var rcon = require('srcds-rcon');
   
 
 
 
-console.log('Osolo v.0.0.3')
-console.log('Copyright (C) 2016  Viktor Lazarev')
+console.log('Osolo v.0.0.5')
+console.log('Copyright (C) 2017  Viktor Lazarev(russiantux)')
 console.log('This program comes with ABSOLUTELY NO WARRANTY!!')
 console.log('This is free software, and you are welcome to redistribute it under certain conditions')
 console.log('For detailed use of this program, please consult the LICENSE.MD file')
